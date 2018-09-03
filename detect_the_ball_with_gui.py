@@ -60,7 +60,7 @@ def track(image):
     # Convert BGR to HSV
     hsv = cv2.cvtColor(blur, cv2.COLOR_BGR2HSV)
     
-    # Get the treshold from the trackbars
+    # Get the threshold from the trackbars
     iLowH = cv2.getTrackbarPos('LowH', CONTROL_WINDOW_NAME)
     iHighH = cv2.getTrackbarPos('HighH', CONTROL_WINDOW_NAME)
     iLowS = cv2.getTrackbarPos('LowS', CONTROL_WINDOW_NAME)
